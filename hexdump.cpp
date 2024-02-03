@@ -103,9 +103,9 @@ int main(int argc, char** argv)
 				char to_print{curr[j]};
 				if(to_print < 0x20)
 				{
-					to_print = ' ';
+					to_print = '.';
 				}
-				std::cout << to_print << " ";
+				std::cout << to_print;
 				
 			}
 			std::cout << "|\n";
